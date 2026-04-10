@@ -82,41 +82,41 @@
   padding: 20px 0;
   border-bottom: 6px solid #e5e5e5;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
-  .container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    width: 95%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.gov-header .container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .logo {
-    height: 70px;
-    width: auto;
-  }
+.gov-header .logo {
+  height: 70px;
+  width: auto;
+}
 
-  .text {
-    color: white;
+.gov-header .text {
+  color: white;
+}
 
-    .h1 {
-      font-size: 18px;
-      font-weight: 600;
-      margin-top: 5px;
-      margin-bottom: 0px;
-      line-height: 22.5px;
-    }
+.gov-header .text .h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  line-height: 22.5px;
+}
 
-    .h2 {
-      margin-top: 0px;
-      margin-bottom: 0px;
-      font-size: 12px;
-      font-weight: 100;
-      opacity: 0.9;
-      line-height: 16px;
-    }
-  }
+.gov-header .text .h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: 100;
+  opacity: 0.9;
+  line-height: 16px;
 }
 
 
