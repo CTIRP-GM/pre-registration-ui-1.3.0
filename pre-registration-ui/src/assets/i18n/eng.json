@@ -280,9 +280,9 @@
     "home": "Home"
   },
   "login": {
-    "text": "ZamIdentity",
+    "text": "National Pre-registration Platform",
     "sub_text": "Pre-register for",
-    "sub_text_UID": "National Registration Card (NRC)",
+    "sub_text_UID": "National Registration Card",
     "label_email_num": "Email ID or Phone Number",
     "label_otp": "Enter OTP",
     "action_send": "Send OTP",

@@ -24,15 +24,11 @@
       <header class="gov-header">
           <div class="container">
             <a *ngIf="!authService.isAuthenticated()" href="./" mat-list-item>
-              <img src="assets\zambia-logo-small.svg" alt="MOSIP logo" class="header--logo" style="max-height: 2.5rem"/>
+              <img src="assets\malawi-logo.svg" alt="MOSIP logo" class="header--logo" style="max-height: 3rem"/>
             </a>
             <a *ngIf="authService.isAuthenticated()" (click)="onLogoClick()" mat-list-item>
-              <img src="assets\zambia-logo-small.svg" alt="MOSIP logo" class="header--logo" style="max-height: 2.5rem"/>
+              <img src="assets\malawi-logo.svg" alt="MOSIP logo" class="header--logo" style="max-height: 2.5rem"/>
             </a>
-            <div class="text">
-              <h1 class='h1'>Republic of Zambia</h1>
-              <h2 class='h2'>National Identity Registration</h2>
-            </div>
 
           </div>
       </header>
