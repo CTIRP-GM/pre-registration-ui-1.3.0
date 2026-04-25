@@ -11,7 +11,6 @@ on:
       - release*
       - master
       - 1.*
-      - develop
       - malawi
 jobs:
   build-pre-registration-ui:
