@@ -12,8 +12,7 @@ on:
       - master
       - 1.*
       - develop
-      - zambia
-
+      - malawi
 jobs:
   build-pre-registration-ui:
     uses: mosip/kattu/.github/workflows/npm-build.yml@develop
